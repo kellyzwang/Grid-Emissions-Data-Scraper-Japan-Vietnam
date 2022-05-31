@@ -94,7 +94,7 @@ This source has an API for accessing past hourly demand/supply data from 2016 - 
 
 
 ## Vietnam monthly generation
-vietnam_past_generation.py scrapes from all pdfs located in the ‘Vietnam_data’ folder. The pdfs were manually downloaded from the EVN’s website. We were only able to get data from October, 2020 to February, 2022 because other records of data are in the form of videos instead of pdfs.
+`vietnam_past_generation.py` scrapes from all pdfs located in the ‘Vietnam_data’ folder. The pdfs were manually downloaded from the EVN’s website. We were only able to get data from October, 2020 to February, 2022 because other records of data are in the form of videos instead of pdfs.
 
 The pdfs contain data on total monthly generation, which we scraped for. The pdfs also contain data on accumulation of generation (by power type) since the beginning of each year, but the format of the pdfs is inconsistent and some have missing data, so we did not scrape for this.  
 
